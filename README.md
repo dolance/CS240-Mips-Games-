@@ -90,11 +90,9 @@ A 10×20 falling-block game with the seven standard tetromino shapes. The progra
 
 **Implementation details:** Pieces are selected from shuffled seven-piece bags. Gravity is set to approximately **650 ms per row**. Clearing 1, 2, 3, or 4 lines in one placement awards **100, 300, 500, or 800 points** respectively. The best score remains in program memory across restarts, but is not saved when MARS exits.
 
-**Manual test evidence:** Gameplay and game-over screenshots are shown below and documented in the submitted assignment.
+**Manual test evidence:** The gameplay screenshot below comes from the submitted assignment, which also documents end-of-game testing.
 
-| Gameplay | Game over |
-| :---: | :---: |
-| ![Tetris gameplay](assets/screenshots/tetris-gameplay.png) | ![Tetris game-over screen](assets/screenshots/tetris-game-over.png) |
+![Tetris gameplay](assets/screenshots/tetris-gameplay.png)
 
 
 ## What this project explores
