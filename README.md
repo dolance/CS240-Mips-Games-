@@ -8,7 +8,7 @@ These games run in the **MARS MIPS simulator** and use MIPS assembly for game st
 
 | Tic-Tac-Toe | Blackjack | Tetris |
 | :---: | :---: | :---: |
-| ![Tic-Tac-Toe X win](assets/screenshots/tic-tac-toe-x-win.png) | ![Blackjack gameplay](assets/screenshots/blackjack-natural.png) | Screenshots in assignment report |
+| ![Tic-Tac-Toe X win](assets/screenshots/tic-tac-toe-x-win.png) | ![Blackjack gameplay](assets/screenshots/blackjack-natural.png) | ![Tetris gameplay](assets/screenshots/tetris-gameplay.png) |
 | Two-player, turn-based grid game | Single-player card game against a dealer | Falling-block game with scoring and piece previews |
 | [`tic_tac_toe.asm`](tic_tac_toe.asm) | [`blackjack.asm`](blackjack.asm) | [`tetris.asm`](tetris.asm) |
 
@@ -90,7 +90,11 @@ A 10×20 falling-block game with the seven standard tetromino shapes. The progra
 
 **Implementation details:** Pieces are selected from shuffled seven-piece bags. Gravity is set to approximately **650 ms per row**. Clearing 1, 2, 3, or 4 lines in one placement awards **100, 300, 500, or 800 points** respectively. The best score remains in program memory across restarts, but is not saved when MARS exits.
 
-**Manual test evidence:** See the submitted assignment for screenshots of gameplay and tested game states.
+**Manual test evidence:** Gameplay and game-over screenshots are shown below and documented in the submitted assignment.
+
+| Gameplay | Game over |
+| :---: | :---: |
+| ![Tetris gameplay](assets/screenshots/tetris-gameplay.png) | ![Tetris game-over screen](assets/screenshots/tetris-game-over.png) |
 
 
 ## What this project explores
